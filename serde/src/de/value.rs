@@ -183,6 +183,7 @@ impl<E> Debug for UnitDeserializer<E> {
 
 ////////////////////////////////////////////////////////////////////////////////
 
+/*
 /// A deserializer that cannot be instantiated.
 #[cfg(feature = "unstable")]
 pub struct NeverDeserializer<E> {
@@ -222,6 +223,7 @@ where
         tuple_struct map struct enum identifier ignored_any
     }
 }
+*/
 
 ////////////////////////////////////////////////////////////////////////////////
 
